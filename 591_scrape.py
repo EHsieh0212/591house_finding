@@ -143,15 +143,3 @@ s.login(user = 'webscrapingprac@gmail.com', password = 'tubecity0212')
 s.sendmail(sender, receiver, msg.as_string())
 s.quit()
 driver.close()
-
-
-'''
-結論: 
-    1. 純文字檔不是很實用
-    2. 找房子其實最重要的是「圖片」
-下一個目標: 
-    抓資料
-    抓圖片
-    推撥到line上
-'''
-
